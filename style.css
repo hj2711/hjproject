@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-34{
+    font-size: 34px;
+}
+.font-size-27{
+    font-size: 27px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+
+/* #global classes */
+
+/* #header{
+    position: relative;
+    z-index: 400;
+} */
+
+/* site-main */
+
+.site-banner .banner-area{
+    background-color: #dbf6e9;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.skill .bars p, .site-content .skill .bars span{
+    line-height: 10px;
+}
+
+#footer form .row .col input[type="text"],
+#footer form .row .col input[type="email"],
+#footer form textarea{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    padding: 1.5rem 1rem;
+}
+/* #site-main */
+.profile{
+    width: 20rem;
+    border-radius: 100%;
+}
+.nav-back{
+    background:transparent;
+}
+.btns{
+    display: inline;
+}
+.me{
+    padding: 0 !important;
+}
+.img-box{
+    text-align: center;
+    margin: auto 0;
+}
+.progress-bar{
+    background: rgb(7, 100, 187);
+}
+.mshow{
+    margin:0 auto;
+    padding:0 5rem;
+}
+.mshow img{
+    height: 35rem;
+    padding: 50px;
+}
+
+#footer form .row .col input[type="text"]:focus,
+#footer form .row .col input[type="email"]:focus,
+#footer form textarea:focus{
+border-bottom-color: rgb(88, 154, 241) ;
+border-bottom-width: 0.2em;
+transition: 100ms linear;
+}
+.cloud{
+    position: absolute;
+    width: 20%;
+    top: 15%;
+    z-index: 1;
+}
+.cloud1{
+    left: 0;
+    top: 25%;
+    animation: 15s linear 0s infinite alternate-reverse linear-walk;
+}
+.cloud2{
+    right:20%;
+    animation: 20s linear 0s infinite running linear-walk;
+}
+@keyframes linear-walk{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+      transform: translateX(50%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes flash {
+    0% { opacity: 1; } 
+    2% { opacity: 0; }
+    3% { opacity: 0.6; }
+    4% { opacity: 0.2; }
+    6% { opacity: 0.9; } 
+    100% { opacity: 1; }
+}
+.mount{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.text-box{
+    z-index: 100;
+    text-align: center;
+}
+.sun{
+    position: relative;
+    width: 25%;
+    top: 20%;
+    left: 48%;
+    z-index: 0;
+}
+.header-box{
+position: relative;
+z-index: 100;
+text-align: center;
+background-color: #fdfdfda2;
+border-radius: 2%;
+}
+#home h1,
+#home h5,
+.navbar .navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+}
+.header-box a{
+    text-decoration: none;
+}
+.header-box h1,
+.navbar .navbar-brand{
+    color: chocolate;
+    transition:ease-in;
+}
+.header-box h5{
+    color: rgb(31, 97, 88);
+    transition:ease-in;
+}
+.header-box button{
+    margin-bottom: 1%;
+}
+ #home{
+     display: inline-block;
+     height: 100vh;
+     width: 100%;
+ }
+ .navbar img{
+     width: 10%;
+     height: 10%;
+ }
